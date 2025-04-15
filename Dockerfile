@@ -14,3 +14,5 @@ ENTRYPOINT ["/bin/sh", "/app/morss-helper"]
 CMD ["run"]
 
 HEALTHCHECK CMD /bin/sh /app/morss-helper check
+CMD ["apache2-foreground"]
+
